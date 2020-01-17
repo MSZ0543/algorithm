@@ -17,6 +17,7 @@ public class Leetcode509 {
     }
 
     public int fib(int N) {
+        // 通过
         if (N == 0) return 0;
         if (N == 1) return 1;
         // 递归方式
