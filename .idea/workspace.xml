@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="384065ce-c453-4f7b-a438-3648f2b7d2c2" name="Default" comment="" />
+    <list default="true" id="384065ce-c453-4f7b-a438-3648f2b7d2c2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +21,8 @@
       <file leaf-file-name="Leetcode226.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/binarytree/Leetcode226.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="35" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="35" />
+            <state relative-caret-position="459">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,20 +30,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Leetcode169.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/array/Leetcode169.java">
+      <file leaf-file-name="Leetcode104.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/binarytree/Leetcode104.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Leetcode283.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/array/Leetcode283.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            <state relative-caret-position="629">
+              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,11 +96,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Leetcode448.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Leetcode448.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/array/Leetcode448.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+            <state relative-caret-position="374">
+              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Leetcode437_$$$.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/binarytree/Leetcode437_$$$.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="721">
+              <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,6 +170,8 @@
         <option value="$PROJECT_DIR$/src/main/java/algorithm/array/Leetcode49.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/array/Leetcode17.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/array/Leetcode448.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithm/binarytree/Leetcode437.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithm/binarytree/Leetcode437_$$$.java" />
       </list>
     </option>
   </component>
@@ -339,7 +349,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Leetcode17.test">
+  <component name="RunManager" selected="JUnit.Leetcode437_$$$.test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -415,6 +425,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="Leetcode437_$$$.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.binarytree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="algorithm.binarytree" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.binarytree.Leetcode437_$$$" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="Leetcode49.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <extension name="coverage">
@@ -427,29 +460,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="algorithm.array" />
       <option name="MAIN_CLASS_NAME" value="algorithm.array.Leetcode49" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Leetcode617.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.binarytree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="algorithm.binarytree" />
-      <option name="MAIN_CLASS_NAME" value="algorithm.binarytree.Leetcode617" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -558,19 +568,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Leetcode617.test" />
       <item itemvalue="JUnit.Leetcode104.test" />
       <item itemvalue="JUnit.Leetcode235.test" />
       <item itemvalue="JUnit.Leetcode49.test" />
       <item itemvalue="JUnit.Leetcode17.test" />
+      <item itemvalue="JUnit.Leetcode437_$$$.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Leetcode437_$$$.test" />
         <item itemvalue="JUnit.Leetcode17.test" />
         <item itemvalue="JUnit.Leetcode49.test" />
         <item itemvalue="JUnit.Leetcode235.test" />
         <item itemvalue="JUnit.Leetcode104.test" />
-        <item itemvalue="JUnit.Leetcode617.test" />
       </list>
     </recent_temporary>
   </component>
@@ -600,44 +610,44 @@
       <updated>1579242851749</updated>
       <workItem from="1579242857479" duration="239000" />
       <workItem from="1579243231390" duration="10536000" />
-      <workItem from="1579312280708" duration="9548000" />
+      <workItem from="1579312280708" duration="13490000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Leetcode49_test - 2020.01.18 at 11h 04m 28s.xml">
-      <configuration name="Leetcode49.test" configurationId="JUnit" />
+    <history-entry file="Leetcode437_$$$_test - 2020.01.18 at 16h 28m 35s.xml">
+      <configuration name="Leetcode437_$$$.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Leetcode49_test - 2020.01.18 at 11h 05m 15s.xml">
-      <configuration name="Leetcode49.test" configurationId="JUnit" />
+    <history-entry file="Leetcode437_$$$_test - 2020.01.18 at 16h 33m 25s.xml">
+      <configuration name="Leetcode437_$$$.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Leetcode49_test - 2020.01.18 at 11h 05m 26s.xml">
-      <configuration name="Leetcode49.test" configurationId="JUnit" />
+    <history-entry file="Leetcode437_$$$_test - 2020.01.18 at 16h 33m 34s.xml">
+      <configuration name="Leetcode437_$$$.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Leetcode49_test - 2020.01.18 at 11h 05m 31s.xml">
-      <configuration name="Leetcode49.test" configurationId="JUnit" />
+    <history-entry file="Leetcode437_$$$_test - 2020.01.18 at 16h 34m 38s.xml">
+      <configuration name="Leetcode437_$$$.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Leetcode17_test - 2020.01.18 at 15h 04m 51s.xml">
-      <configuration name="Leetcode17.test" configurationId="JUnit" />
+    <history-entry file="Leetcode437_$$$_test - 2020.01.18 at 16h 37m 04s.xml">
+      <configuration name="Leetcode437_$$$.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Leetcode17_test - 2020.01.18 at 15h 05m 28s.xml">
-      <configuration name="Leetcode17.test" configurationId="JUnit" />
+    <history-entry file="Leetcode437_$$$_test - 2020.01.18 at 16h 37m 47s.xml">
+      <configuration name="Leetcode437_$$$.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Leetcode17_test - 2020.01.18 at 15h 06m 29s.xml">
-      <configuration name="Leetcode17.test" configurationId="JUnit" />
+    <history-entry file="Leetcode437_$$$_test - 2020.01.18 at 16h 39m 04s.xml">
+      <configuration name="Leetcode437_$$$.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Leetcode17_test - 2020.01.18 at 15h 08m 09s.xml">
-      <configuration name="Leetcode17.test" configurationId="JUnit" />
+    <history-entry file="Leetcode437_$$$_test - 2020.01.18 at 16h 42m 58s.xml">
+      <configuration name="Leetcode437_$$$.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Leetcode17_test - 2020.01.18 at 15h 09m 52s.xml">
-      <configuration name="Leetcode17.test" configurationId="JUnit" />
+    <history-entry file="Leetcode437_$$$_test - 2020.01.18 at 16h 43m 36s.xml">
+      <configuration name="Leetcode437_$$$.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Leetcode17_test - 2020.01.18 at 15h 10m 12s.xml">
-      <configuration name="Leetcode17.test" configurationId="JUnit" />
+    <history-entry file="Leetcode437_$$$_test - 2020.01.18 at 16h 43m 51s.xml">
+      <configuration name="Leetcode437_$$$.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20323000" />
+    <option name="totallyTimeSpent" value="24265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
@@ -661,10 +671,10 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32977778" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3288889" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3288889" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.16977778" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15601704" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15601704" />
       <window_info id="ZooKeeper" order="2" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -685,7 +695,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithm/binarytree/Leetcode437_$$$.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="ZooKeeperConfig">
@@ -851,16 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/binarytree/Leetcode104.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/bitoperation/Leetcode136.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -917,16 +925,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/binarytree/Leetcode226.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="35" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/array/Leetcode49.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -941,16 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/binarytree/Leetcode235.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -980,8 +968,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/array/Leetcode448.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        <state relative-caret-position="374">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/binarytree/Leetcode235.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/binarytree/Leetcode104.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/binarytree/Leetcode226.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/binarytree/Leetcode437_$$$.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="721">
+          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
