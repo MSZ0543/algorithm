@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import pojo.TreeNode;
 
 import javax.annotation.Resource;
-import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * @program: algorithm
@@ -17,7 +17,7 @@ import java.util.ArrayList;
  * @author: szm
  * @create: 2020-01-19 14:44
  **/
-public class Leetcode337_$$$$$ {
+public class Leetcode337_$$$ {
 
     @Resource
     private Leetcode198 leetcode198;
@@ -40,9 +40,9 @@ public class Leetcode337_$$$$$ {
         root.left = n1;
         root.right = n2;
 
-        n1.right = n3;
-        n2.right = n4;
-        n3.left = n5;
+        n1.left = n3;
+        n1.right = n4;
+        n2.right = n5;
 //        n3.right = n7;
 //        n4.right = n8;
 
@@ -51,45 +51,23 @@ public class Leetcode337_$$$$$ {
 
     }
 
-    private boolean preOrder = false;
+    // 记录重复遍历结果，加速
+    HashMap<TreeNode, Integer> map = new HashMap<>();
 
     public int rob(TreeNode root) {
-        // 未通过
-        ArrayList<Integer> list = new ArrayList<>();
-        inOrderTraversal(root, list, root);
-        return rob(list);
-    }
-
-    private void inOrderTraversal(TreeNode root, ArrayList<Integer> list, TreeNode rootRoot) {
-        if (root == null) {
-            return;
+        if(map.containsKey(root)) {
+            return map.get(root);
         }
-        if (!preOrder) {
-            inOrderTraversal(root.left, list, rootRoot);
-            list.add(root.val);
-            if(root == rootRoot) preOrder = true;
-            inOrderTraversal(root.right, list, rootRoot);
-        } else {
-            list.add(root.val);
-            inOrderTraversal(root.right, list, rootRoot);
-            inOrderTraversal(root.right, list, rootRoot);
-        }
-
-    }
-
-    private int rob(ArrayList<Integer> nums) {
-        // 通过
-        int length = nums.size();
-        if (length == 0) {
-            return 0;
-        }
-        int[] dp = new int[length + 1];
-        dp[0] = 0;
-        dp[1] = nums.get(0);
-        for (int i = 2; i <= length; i++) {
-            // 第i个房子不偷，第i个房子偷
-            dp[i] = Math.max(dp[i - 1], dp[i - 2] + nums.get(i - 1));
-        }
-        return dp[length];
+        if(root == null) return 0;
+        // 这个节点偷，本节点val + 孩子的孩子val和
+        int today_do = root.val +
+                (root.left == null ? 0 : rob(root.left.left) + rob(root.left.right)) +
+                (root.right == null ? 0 : rob(root.right.left) + rob(root.right.right));
+        // 这个节点不偷，孩子的val和
+        int today_not_do = rob(root.left) + rob(root.right);
+        // 返回最优解
+        int rootNow = Math.max(today_do, today_not_do);
+        map.put(root, rootNow);
+        return rootNow;
     }
 }

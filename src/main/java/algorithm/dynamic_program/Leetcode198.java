@@ -19,7 +19,34 @@ public class Leetcode198 {
         System.out.println(rob(input));
     }
 
-    public int rob(int[] nums) {
+
+    int rob(int[] nums) {
+        int n = nums.length;
+        // 用常量代替dp[]
+        int dp_1 = 0, dp_2 = 0, dp_i = 0;
+        for (int i = 0; i < n; i ++) {
+            dp_i = Math.max(dp_1, nums[i] + dp_2);
+            dp_2 = dp_1;
+            dp_1 = dp_i;
+        }
+        return dp_i;
+    }
+
+
+    /*int rob(int[] nums) {
+        int n = nums.length;
+        // dp[i] = x 表示：
+        // 从第 i 间房子开始抢劫，最多能抢到的钱为 x
+        // base case: dp[n] = 0
+        // n + 2 是为了 将 从第一天开始抢还是第二天开始抢两种情况都包含
+        int[] dp = new int[n + 2];
+        for (int i = 2; i < n + 2; i ++) {
+            dp[i] = Math.max(dp[i - 1], nums[i - 2] + dp[i - 2]);
+        }
+        return dp[n + 1];
+    }*/
+
+    /*public int rob(int[] nums) {
         // 通过
         int length = nums.length;
         if (length == 0) {
@@ -33,6 +60,6 @@ public class Leetcode198 {
             dp[i] = Math.max(dp[i-1], dp[i-2] + nums[i-1]);
         }
         return dp[length];
-    }
+    }*/
 
 }
