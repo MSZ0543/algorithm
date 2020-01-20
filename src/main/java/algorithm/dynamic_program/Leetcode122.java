@@ -1,4 +1,4 @@
-package algorithm.dynamicprogram;
+package algorithm.dynamic_program;
 
 /**
  * @program: algorithm

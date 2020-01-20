@@ -1,4 +1,4 @@
-package algorithm.dynamicprogram;
+package algorithm.dynamic_program;
 
 import org.junit.jupiter.api.Test;
 import pojo.TreeNode;

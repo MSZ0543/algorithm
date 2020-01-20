@@ -1,4 +1,4 @@
-package algorithm.bitoperation;
+package algorithm.bit_operation;
 
 /**
  * @program: algorithm
