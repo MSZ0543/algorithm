@@ -6,7 +6,6 @@ import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 /**
  * @program: algorithm
@@ -23,10 +22,42 @@ public class Leetcode31_$$$$ {
         System.out.println(CommonUtil.toJsonString(input));
     }
 
+
+    public void nextPermutation(int[] nums) {
+        int i = nums.length - 2;
+        while (i >= 0 && nums[i + 1] <= nums[i]) {
+            i--;
+        }
+        if (i >= 0) {
+            int j = nums.length - 1;
+            while (j >= 0 && nums[j] <= nums[i]) {
+                j--;
+            }
+            swap(nums, i, j);
+        }
+        reverse(nums, i + 1);
+    }
+
+    private void reverse(int[] nums, int start) {
+        int i = start, j = nums.length - 1;
+        while (i < j) {
+            swap(nums, i, j);
+            i++;
+            j--;
+        }
+    }
+
+    private void swap(int[] nums, int i, int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
+
+
     List<Integer> lastNums = new ArrayList<>();
     List<Integer> now = new ArrayList<>();
 
-    public void nextPermutation(int[] nums) {
+    /*public void nextPermutation(int[] nums) {
         // 未通过
         List<Integer> row = new ArrayList<>();
         int[] visited = new int[nums.length];
@@ -41,7 +72,7 @@ public class Leetcode31_$$$$ {
                 nums[i] = now.get(i);
             }
         }
-    }
+    }*/
 
     private void helper(List<Integer> targetNums, int[] sortNums, List<Integer> row, int[] visited) {
 

@@ -11,6 +11,7 @@ import java.util.concurrent.Semaphore;
 public class SemaphoreTest {
     public static void main(String[] args) throws InterruptedException {
         System.out.println("Action...GO!");
+        // permis是信号量的初始值，再往下减，减到0就锁住
         Semaphore semaphore = new Semaphore(5, true);
         for (int i = 0; i < 10; i++) {
             Thread t = new Thread(new SemaphoreWorker(semaphore));
