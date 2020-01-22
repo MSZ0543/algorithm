@@ -13,45 +13,50 @@ import java.util.List;
  * @author: szm
  * @create: 2020-01-20 17:55
  **/
-public class Leetcode31_$$$$ {
+public class Leetcode31_$$$ {
 
     @Test
     public void test(){
-        int[] input = {2,0,4,0,0,4,4,1,4};
+        int[] input = {5, 1,1};
         nextPermutation(input);
         System.out.println(CommonUtil.toJsonString(input));
     }
 
 
     public void nextPermutation(int[] nums) {
-        int i = nums.length - 2;
-        while (i >= 0 && nums[i + 1] <= nums[i]) {
-            i--;
+        // 通过
+        if(nums.length < 2) return;
+        // 从数组末尾向前查找nums[index] < nums[index + 1]
+        int length = nums.length;
+        int index = length - 2;
+        while(index >= 0 && nums[index] >= nums[index + 1]) {
+            index --;
         }
-        if (i >= 0) {
-            int j = nums.length - 1;
-            while (j >= 0 && nums[j] <= nums[i]) {
-                j--;
-            }
-            swap(nums, i, j);
+        // 将nums[index] 和 右边子数组应存在位置交换
+        if(index >= 0) {
+            int rightIndex = length - 1;
+            for(; nums[rightIndex] <= nums[index] && rightIndex >= 0; rightIndex --) ;
+            swap(nums, index, rightIndex);
         }
-        reverse(nums, i + 1);
+        // 将index右边数字逆序
+        int end = length - 1;
+        index ++;
+        while(index <= end) {
+            swap(nums, index++, end--);
+        }
     }
 
-    private void reverse(int[] nums, int start) {
-        int i = start, j = nums.length - 1;
-        while (i < j) {
-            swap(nums, i, j);
-            i++;
-            j--;
-        }
+    private void swap(int[] nums, int a, int b) {
+        int temp = nums[a];
+        nums[a] = nums[b];
+        nums[b] = temp;
+
+        //  ^ 交换存在局限性 当两个是相等时交换完必定有一个是0
+        /*nums[a] ^= nums[b];
+        nums[b] ^= nums[a];
+        nums[a] ^= nums[b];*/
     }
 
-    private void swap(int[] nums, int i, int j) {
-        int temp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = temp;
-    }
 
 
     List<Integer> lastNums = new ArrayList<>();
