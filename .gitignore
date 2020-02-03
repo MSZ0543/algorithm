@@ -35,3 +35,6 @@ logs
 /lain.yaml
 *.pyc
 
+src/main/java/algorithm/figure/
+src/main/resources/
+src/test/

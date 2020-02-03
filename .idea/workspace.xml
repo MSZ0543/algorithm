@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="384065ce-c453-4f7b-a438-3648f2b7d2c2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -90,11 +91,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Leetcode79.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Leetcode79.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/figure/Leetcode79.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="595">
               <caret line="35" column="5" selection-start-line="28" selection-start-column="54" selection-end-line="35" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="22" column="10" selection-start-line="22" selection-end-line="22" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -119,15 +129,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Leetcode169.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/array/Leetcode169.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -203,9 +204,9 @@
         <option value="$PROJECT_DIR$/src/main/java/concurrent_program/PrintABC.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/array/Leetcode31_$$$$.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/array/Leetcode31_$$$.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/recursive/Leetcode79.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/figure/Leetcode79.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -253,7 +254,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="636" />
+    <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -265,7 +266,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
@@ -372,6 +372,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -640,7 +641,9 @@
       <workItem from="1579928324620" duration="151000" />
       <workItem from="1580132828114" duration="113000" />
       <workItem from="1580133132675" duration="953000" />
-      <workItem from="1580172968430" duration="578000" />
+      <workItem from="1580172968430" duration="1637000" />
+      <workItem from="1580176702145" duration="530000" />
+      <workItem from="1580692887899" duration="895000" />
     </task>
     <servers />
   </component>
@@ -677,7 +680,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75829000" />
+    <option name="totallyTimeSpent" value="78313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -700,19 +703,19 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32977778" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36977777" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36965516" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2631111" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16478191" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.26206896" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16962843" />
       <window_info anchor="right" id="Bean Validation" order="4" />
+      <window_info id="ZooKeeper" order="2" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info id="ZooKeeper" order="2" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32977778" />
@@ -1078,13 +1081,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/array/Leetcode169.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1174,8 +1170,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/figure/Leetcode79.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="595">
           <caret line="35" column="5" selection-start-line="28" selection-start-column="54" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="22" column="10" selection-start-line="22" selection-end-line="22" selection-end-column="10" />
         </state>
       </provider>
     </entry>
