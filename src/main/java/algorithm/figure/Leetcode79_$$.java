@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test;
  * @author: szm
  * @create: 2020-01-22 15:40
  **/
-public class Leetcode79_$$$ {
+public class Leetcode79_$$ {
 
     @Test
     public void test() {
@@ -59,19 +59,24 @@ public class Leetcode79_$$$ {
 
     private boolean dfs(int i, int j, int start) {
         if (start == word.length() - 1) {
+            // 比较目标字符串的最后一位
             return board[i][j] == word.charAt(start);
         }
         if (board[i][j] == word.charAt(start)) {
+            // 本位字符存在
             marked[i][j] = true;
             for (int k = 0; k < 4; k++) {
+                // 规定了顺时针查找顺序
                 int newX = i + direction[k][0];
                 int newY = j + direction[k][1];
                 if (inArea(newX, newY) && !marked[newX][newY]) {
+                    // 递归下一位
                     if (dfs(newX, newY, start + 1)) {
                         return true;
                     }
                 }
             }
+            // 回溯
             marked[i][j] = false;
         }
         return false;

@@ -25,11 +25,6 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
         </dependency>
-        <dependency>
-            <groupId>cn.creditease.std</groupId>
-            <artifactId>std-common-utils</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
     </dependencies>
 
 </project>

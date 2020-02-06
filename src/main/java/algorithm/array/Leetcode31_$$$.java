@@ -1,6 +1,6 @@
 package algorithm.array;
 
-import cn.creditease.std.common.utils.utils.CommonUtil;
+
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -19,7 +19,7 @@ public class Leetcode31_$$$ {
     public void test(){
         int[] input = {5, 1,1};
         nextPermutation(input);
-        System.out.println(CommonUtil.toJsonString(input));
+        System.out.println(input);
     }
 
 
