@@ -1,6 +1,6 @@
 package algorithm;
 
-import main.pojo.TreeNode;
+import pojo.TreeNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
