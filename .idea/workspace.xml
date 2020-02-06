@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="384065ce-c453-4f7b-a438-3648f2b7d2c2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/array/Leetcode31_$$$.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/array/Leetcode31_$$$.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/figure/Leetcode79_$$$.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/figure/Leetcode79_$$.java" afterDir="false" />
-    </list>
+    <list default="true" id="384065ce-c453-4f7b-a438-3648f2b7d2c2" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -103,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Leetcode105.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/binarytree/Leetcode105.java">
+      <file leaf-file-name="Leetcode105_$$.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/binarytree/Leetcode105_$$.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="454">
+              <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,7 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/algorithm/binarytree/Leetcode226.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/binarytree/Leetcode104.java" />
         <option value="$PROJECT_DIR$/src/main/java/pojo/ListNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/linkedlist/Leetcode206.java" />
@@ -204,6 +198,7 @@
         <option value="$PROJECT_DIR$/src/main/java/algorithm/array/Leetcode31_$$$.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/binarytree/Leetcode102.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/binarytree/Leetcode105.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithm/binarytree/Leetcode105_$$.java" />
       </list>
     </option>
   </component>
@@ -339,7 +334,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Leetcode105.test">
+  <component name="RunManager" selected="JUnit.Leetcode105_$$.test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -368,7 +363,7 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Leetcode105.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Leetcode105_$$.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -379,7 +374,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="algorithm.binarytree" />
-      <option name="MAIN_CLASS_NAME" value="algorithm.binarytree.Leetcode105" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.binarytree.Leetcode105_$$" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -538,11 +533,11 @@
       <item itemvalue="Application.DeadLockSample" />
       <item itemvalue="Application.PrintABC" />
       <item itemvalue="JUnit.Leetcode79_$$.test" />
-      <item itemvalue="JUnit.Leetcode105.test" />
+      <item itemvalue="JUnit.Leetcode105_$$.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Leetcode105.test" />
+        <item itemvalue="JUnit.Leetcode105_$$.test" />
         <item itemvalue="JUnit.Leetcode79_$$.test" />
         <item itemvalue="JUnit.Leetcode31_$$$.test" />
         <item itemvalue="Application.PrintABC" />
@@ -585,7 +580,7 @@
       <workItem from="1580176702145" duration="530000" />
       <workItem from="1580692887899" duration="2307000" />
       <workItem from="1580724831488" duration="598000" />
-      <workItem from="1580730797255" duration="11047000" />
+      <workItem from="1580730797255" duration="11259000" />
     </task>
     <servers />
   </component>
@@ -622,11 +617,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91370000" />
+    <option name="totallyTimeSpent" value="91582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -647,9 +641,9 @@
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32965517" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36965516" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36965516" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.26206896" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.26206896" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27221325" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -1142,10 +1136,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/binarytree/Leetcode105.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/binarytree/Leetcode105_$$.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="454">
+          <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
