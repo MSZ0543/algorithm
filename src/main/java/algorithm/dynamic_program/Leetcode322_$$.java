@@ -17,7 +17,7 @@ public class Leetcode322_$$ {
         System.out.println(coinChange(input, 6249));
     }
 
-    public int coinChange(int[] coins, int amount) {
+    public static int coinChange(int[] coins, int amount) {
         int[] dp = new int[amount + 1];
         for (int i = 0; i <= amount; i++) {
             dp[i] = -1;

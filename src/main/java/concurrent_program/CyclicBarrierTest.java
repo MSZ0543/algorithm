@@ -27,7 +27,7 @@ public class CyclicBarrierTest {
             第一个默认方法，表示要等到所有的线程都处于barrier状态，才一起执行
             第二个方法，指定了等待的时间，当所有线程没有都处于barrier状态，又到了指定的时间，所在的线程就继续执行了。
 */
-
+    private static int res = 0;
 
     public static void main(String[] args) throws InterruptedException {
         CyclicBarrier barrier = new CyclicBarrier(5, new Runnable() {
@@ -54,6 +54,10 @@ public class CyclicBarrierTest {
             try {
                 for (int i = 0; i < 3; i++) {
                     System.out.println("Executed!");
+                    synchronized (this) {
+                        res ++;
+                        System.out.println(res);
+                    }
                     barrier.await();
                 }
             } catch (BrokenBarrierException e) {
