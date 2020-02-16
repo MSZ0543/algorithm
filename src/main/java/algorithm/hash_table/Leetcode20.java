@@ -1,11 +1,11 @@
-package algorithm;
+package algorithm.hash_table;
 
 import java.util.HashMap;
 import java.util.Stack;
 
 /**
  * @program: javaStudy
- * @description:
+ * @description: 有效的括号
  * @author: szm
  * @create: 2019-12-26 15:32
  **/

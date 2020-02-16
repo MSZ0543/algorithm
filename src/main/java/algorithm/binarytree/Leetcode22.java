@@ -1,11 +1,11 @@
-package algorithm;
+package algorithm.binarytree;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * @program: javaStudy
- * @description:
+ * @description: 括号生成 只有()
  * @author: szm
  * @create: 2020-01-09 17:10
  **/

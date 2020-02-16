@@ -1,8 +1,8 @@
-package algorithm;
+package algorithm.array;
 
 /**
  * @program: javaStudy
- * @description:
+ * @description: 搜索旋转排序数组
  * @author: szm
  * @create: 2019-12-29 09:32
  **/

@@ -1,4 +1,4 @@
-package algorithm;
+package algorithm.binarytree;
 
 import pojo.TreeNode;
 
@@ -8,7 +8,7 @@ import java.util.List;
 
 /**
  * @program: javaStudy
- * @description:
+ * @description: 二叉树的锯齿形层次遍历
  * @author: szm
  * @create: 2019-12-28 21:42
  **/

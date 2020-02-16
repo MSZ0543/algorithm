@@ -1,4 +1,4 @@
-package algorithm.figure;
+package algorithm.two_dimensional_array;
 
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package algorithm;
+package algorithm.two_dimensional_array;
 
 import java.util.ArrayList;
 import java.util.List;
