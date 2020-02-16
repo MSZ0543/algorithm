@@ -1,8 +1,8 @@
-package algorithm;
+package algorithm.array;
 
 /**
  * @program: javaStudy
- * @description:
+ * @description: 寻找重复数
  * @author: szm
  * @create: 2020-01-08 18:47
  **/

@@ -1,4 +1,4 @@
-package algorithm;
+package algorithm.two_dimensional_array;
 
 /**
  * @program: javaStudy

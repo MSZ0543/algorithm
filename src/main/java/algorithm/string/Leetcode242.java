@@ -1,4 +1,4 @@
-package algorithm.array;
+package algorithm.string;
 
 import java.util.Arrays;
 
