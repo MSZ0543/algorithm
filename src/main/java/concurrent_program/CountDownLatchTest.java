@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 public class CountDownLatchTest {
     public static void main(String[] args) throws InterruptedException {
 
-        CountDownLatch latch = new CountDownLatch(6);
+        CountDownLatch latch = new CountDownLatch(5);
         for (int i = 0; i < 5; i++) {
             Thread t = new Thread(new FirstBatchWorker(latch));
             t.start();
