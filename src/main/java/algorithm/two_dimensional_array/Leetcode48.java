@@ -34,21 +34,10 @@ public class Leetcode48 {
         for (int i = 0; i < (n + 1) / 2; i++) {
             for (int j = 0; j < n / 2; j++) {
                 int tmp = matrix[i][j];
-                printInput(matrix);
-                System.out.println("one round start------------------");
                 matrix[i][j] = matrix[n - j - 1][i];
-                printInput(matrix);
-                System.out.println("------------------");
                 matrix[n - j - 1][i] = matrix[n - i - 1][n - j - 1];
-                printInput(matrix);
-                System.out.println("------------------");
                 matrix[n - i - 1][n - j - 1] = matrix[j][n - i - 1];
-                printInput(matrix);
-                System.out.println("------------------");
                 matrix[j][n - i - 1] = tmp;
-                printInput(matrix);
-                System.out.println("one round end ------------------");
-
             }
         }
     }
