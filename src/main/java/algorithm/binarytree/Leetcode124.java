@@ -29,7 +29,7 @@ public class Leetcode124 {
         int newPath = root.val + left + right;
         // 新路径和res取最大
         res = Math.max(newPath, res);
-        // 递归思路还是要返回院路经思想长度
+        // 递归思路还是要返回以当前节点父节点为根节点路经长度
         return oldPath;
     }
 }

@@ -43,7 +43,7 @@ public class Leetcode297_$ {
     }
 
 
-    // DFS就完事了
+    // DFS(前序遍历)就完事了
 
 
     // Encodes a tree to a single string.
