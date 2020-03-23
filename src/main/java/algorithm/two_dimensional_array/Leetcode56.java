@@ -3,7 +3,6 @@ package algorithm.two_dimensional_array;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.LinkedList;
 
 /**
@@ -37,12 +36,7 @@ public class Leetcode56 {
             return res.toArray(new int[0][]);
         }
 
-        Arrays.sort(intervals, new Comparator<int[]>() {
-            @Override
-            public int compare(int[] o1, int[] o2) {
-                return o1[0] - o2[0];
-            }
-        });
+        Arrays.sort(intervals, (o1, o2) -> o1[0] - o2[0]);
 
         for (int i = 0; i < intervals.length; i++) {
             if (res.isEmpty() || res.getLast()[1] < intervals[i][0]) {
